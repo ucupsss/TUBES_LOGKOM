@@ -71,7 +71,7 @@ bagIsNotFull :-
 showBag :-
     ( bag(Items) ->
         write('========================================== INVENTORY (TAS) ==================================================='), nl,
-        printBagGrid(Items, 0), nl
+        printBagGrid(Items, 0), nl,write('=======================================================================================================')
     ;
         write('Tas belum diinisialisasi.'), nl
     ).

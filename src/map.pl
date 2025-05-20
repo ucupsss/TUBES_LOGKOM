@@ -1,10 +1,10 @@
 :- include('pokemon.pl').
 :- dynamic(infoPetak/4).
+:- dynamic(move/1).
 % inisialisasi posisi spawn player
 
 % fakta
 % baris 1
-
 infoPetak(0, 0,'#', articuno).
 infoPetak(0, 1,'C', pidgey).
 infoPetak(0, 2,'#', none).
@@ -83,6 +83,9 @@ infoPetak(7,4,' ',none).
 infoPetak(7,5,'#',snorlax).
 infoPetak(7,6,' ',none).
 infoPetak(7,7,'C',pidgey).
+
+% fact move (maksimal 20)
+move(20).
 
 
 % rule

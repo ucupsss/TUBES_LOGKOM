@@ -1,13 +1,13 @@
 % pokemon(Species, Rarity, Type, BaseHP, BaseATK, BaseDEF, Skill1, Skill2, EvoLevel, EvolutionTo)
 pokemon(charmander, common, fire, 35, 15, 10, scratch, ember, 15, charmeleon).
-pokemon(squirtle, common, water, 40, 12, 15, tackle, water_gun, 15, wartortle).
+pokemon(squirtle, common, water, 40, 12, 15, tackle, waterGun, 15, wartortle).
 pokemon(pidgey, common, flying, 30, 14, 10, tackle, gust, 0, none).
-pokemon(charmeleon, common, fire, 57, 27, 22, ember, fire_spin, 0, none).
-pokemon(wartortle, common, water, 62, 23, 26, water_gun, bubble, 0, none).
-pokemon(pikachu, rare, electric, 30, 16, 10, thunder_shock, quick_attack, 0, none).
-pokemon(geodude, rare, rock, 30, 20, 25, tackle, rock_throw, 0, none).
+pokemon(charmeleon, common, fire, 55, 25, 20, ember, fireSpin, 0, none).
+pokemon(wartortle, common, water, 60, 22, 25, waterGun, bubble, 0, none).
+pokemon(pikachu, rare, electric, 30, 16, 10, thunderShock, quickAttack, 0, none).
+pokemon(geodude, rare, rock, 30, 20, 25, tackle, rockThrow, 0, none).
 pokemon(snorlax, epic, normal, 70, 30, 20, tackle, rest, 0, none).
-pokemon(articuno, legendary, ice, 60, 28, 35, gust, ice_shard, 0, none).
+pokemon(articuno, legendary, ice, 60, 28, 35, gust, iceShard, 0, none).
 % pokemon(mewtwo, legendary, psychic, 250, 300, 250, psychic_blast, mind_shock, 0, none).
 
 % Fakta Skill: Nama, Tipe, Power, Efek

@@ -1,0 +1,1 @@
+:- dynamic(dek/4)
